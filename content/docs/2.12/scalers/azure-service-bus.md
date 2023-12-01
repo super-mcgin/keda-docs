@@ -116,5 +116,5 @@ When KEDA logs show errors similar to `invalid queue runtime properties: no Coun
 
 Consider applying one of the following mitigations:
 - Scaling the Azure Service Bus namespace to a higher SKU, or use premium
-- Reduce the polling interval of the ScaledObject/ScaledJob
+- Increase the polling interval of the ScaledObject/ScaledJob
 - Use [caching of metrics](./../concepts/scaling-deployments/#caching-metrics)
